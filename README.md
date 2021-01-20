@@ -23,9 +23,12 @@
   - Window 10 64bit
 - 사용언어
   - Java, HTML, CSS, JavaScript
-- 라이브러리/프레임워크: Spring, jQuery, Bootstrap, MyBatis
-- 데이터베이스: Oracle 12c
-- WAS: Apache Tomcat
+- 라이브러리/프레임워크
+  - Spring, jQuery, Bootstrap, MyBatis
+- 데이터베이스
+  - Oracle 12c
+- WAS
+  - Apache Tomcat
 
 ## 기능
 
