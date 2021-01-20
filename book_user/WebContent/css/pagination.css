@@ -1,0 +1,24 @@
+@charset "EUC-KR";
+
+.section_pagination {
+	margin-top: 70px;
+}
+
+.page-item.active .page-link {
+	z-index: 1;
+	color: #fff;
+	background-color: black;
+	border-color: black;
+}
+
+.page-link {
+	color: #d1d1d1;
+}
+
+.page-link:hover {
+	color: #464646;
+}
+
+a:not([href]):not([tabindex]) {
+    font-weight: 600;
+}
