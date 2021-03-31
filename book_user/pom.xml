@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>kr.co</groupId>
 	<artifactId>sist</artifactId>
-	<name>test_mvc</name>
+	<name>book_user</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
-		<java-version>1.6</java-version>
+		<java-version>1.7</java-version>
 		<org.springframework-version>4.3.9.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
@@ -122,6 +122,14 @@
 	  <artifactId>mybatis</artifactId>
 	  <version>3.5.5</version>
 	</dependency>     
+	
+	<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis-spring -->
+	<dependency>
+	    <groupId>org.mybatis</groupId>
+	    <artifactId>mybatis-spring</artifactId>
+	    <version>2.0.5</version>
+	</dependency>
+	
 	<!-- https://mvnrepository.com/artifact/servlets.com/cos -->
 	<dependency>
 	    <groupId>servlets.com</groupId>
