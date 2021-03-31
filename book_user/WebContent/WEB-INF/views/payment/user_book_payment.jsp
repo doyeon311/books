@@ -36,12 +36,12 @@
       crossorigin="anonymous"
     ></script>
     <!-- css -->
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/common_header_footer.css" />
-    <link rel="stylesheet" href="css/user_book_payment.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/common_header_footer.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/user_book_payment.css" />
 
     <!-- JS -->
-    <script src="js/scroll.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/scroll.js"></script>
     <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
     <script type="text/javascript">
     	if(${ empty sessionScope.id }){

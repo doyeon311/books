@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="css/user_dup_id.css" />
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/user_dup_id.css" />
 <title>아이디 확인</title>
 
 <!-- Google CDN -->

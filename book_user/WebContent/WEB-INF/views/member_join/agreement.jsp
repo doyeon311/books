@@ -34,13 +34,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/common_header_footer.css" />
-    <link rel="stylesheet" href="css/user_join_agreement.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/main.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/common_header_footer.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/user_join_agreement.css" />
     <!-- JS -->
     <!-- header nav용 js (scroll.js) -->
-    <script src="js/scroll.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/scroll.js"></script>
      <!-- Google CDN -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script type="text/javascript">

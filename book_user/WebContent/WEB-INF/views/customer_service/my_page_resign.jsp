@@ -24,14 +24,14 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
     <!-- css -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common_header_footer.css">
-    <link rel="stylesheet" href="css/mypage_category.css">
-    <link rel="stylesheet" href="css/user_resign.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/common_header_footer.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/mypage_category.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/user_resign.css">
 
 
     <!-- JS -->
-    <script src="js/scroll.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/scroll.js"></script>
     <!-- Google CDN -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">

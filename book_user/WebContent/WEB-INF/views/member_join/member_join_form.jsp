@@ -24,16 +24,16 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
     <!-- css -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common_header_footer.css">
-    <link rel="stylesheet" href="css/user_join_form.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/common_header_footer.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/user_join_form.css">
 
 	<!-- 다음 api 우편번호 검색 -->
 	<script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 	<!-- Google CDN -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!-- JS -->
-    <script src="js/scroll.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/scroll.js"></script>
     <script type="text/javascript">
 
 $(function(){

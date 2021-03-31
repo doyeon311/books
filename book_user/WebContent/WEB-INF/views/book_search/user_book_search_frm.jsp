@@ -23,14 +23,14 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
     <!-- css -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common_header_footer.css">
-    <link rel="stylesheet" href="css/user_search.css">
-    <link rel="stylesheet"	href="css/pagination.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/common_header_footer.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/user_search.css">
+    <link rel="stylesheet"	href="${pageContext.request.contextPath}/resources/css/pagination.css">
 
     <!-- JS -->
     <!-- header nav용 js (scroll.js) -->
-    <script src="js/scroll.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/scroll.js"></script>
 
 <script type="text/javascript">
 	function formData(flag, obj) {

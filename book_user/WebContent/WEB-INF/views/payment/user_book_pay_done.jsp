@@ -36,12 +36,12 @@
       crossorigin="anonymous"
     ></script>
     <!-- css -->
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/common_header_footer.css" />
-    <link rel="stylesheet" href="css/user_book_pay_done.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/common_header_footer.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/user_book_pay_done.css" />
 
     <!-- JS -->
-    <script src="js/scroll.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/scroll.js"></script>
     <script type="text/javascript">
     	if(${ empty sessionScope.id }){
     		alert("로그인 후에 사용가능합니다.");
